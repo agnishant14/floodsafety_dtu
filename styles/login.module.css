@@ -1,0 +1,63 @@
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    /* width: 45%; */
+    margin: auto;
+    background-color: rgb(249,249,249);
+    padding: 2.5vw;
+    letter-spacing: 0.5px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+}
+.loginContainer h2{
+    font-size: 1.6vw;
+    padding-bottom: 2.5vh;
+    border-bottom: 1.5px  #2a292980 solid;
+    font-weight: 500;
+    margin-bottom: 1.5vh;
+}
+.inputList{
+    padding: 2vh 0;
+}
+.inputList input{
+    margin: 1.5vh 0;
+    padding: 0.6vw;
+    border: 1px  #43424280 solid;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgb(249,249,249);
+   outline: none;
+}
+.checkboxAndForgetPass{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+.forgotPass:hover{
+cursor: pointer;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.3vw;
+}
+.checkbox:hover{
+    cursor: pointer;
+}
+.continueBtn{
+    margin-bottom: 2vh;
+}
+.continueBtn:hover{
+    cursor: pointer;
+}
+.switchDialog{
+    text-align: center;
+    color:#0D0D0D80
+}
+.switchDialog span{
+    color:#60A5FA;
+}
+.switchDialog span:hover{
+    cursor: pointer;
+}

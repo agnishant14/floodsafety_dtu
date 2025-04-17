@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .navbar{
+    height: 12vh;
+  }
+  .footer{
+    height: 5vh;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 83vh;
+    width: 100%;
+  }
+  .logoFloodSafeGIS:hover{
+    cursor: pointer;
+  }

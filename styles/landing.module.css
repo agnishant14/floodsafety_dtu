@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&family=Inter&family=Poppins&family=Roboto:wght@100&display=swap');
+.parentLanding{
+    font-family: 'Poppins', sans-serif;
+}
+.heroBackdrop{
+    background-color: rgba(215, 247, 250, 0.195);
+    padding: 2vw;
+}
+.landingBg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:url("../public/landing.png") no-repeat;
+    background-size: 100%;
+}
+.landingBg .heroTitle1{
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.features{
+    margin: 4vh auto 12vh;
+    text-align: left;
+    padding: 1vh 0;
+    width: 100%;
+    padding: 0 8vw;
+}
+.features .featureTitle{
+    color: #3498DB;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.feature{
+    border-bottom: 4px #3498DB solid;
+    padding: 6vh 0 4vh;
+}
+.feature .featureTitle{
+    font-size: 2vw;
+}
+.feature .featureContent{
+    font-size: 1.5vw;
+}
+.features h1{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 5rem;
+    letter-spacing: -0.45px;
+}
+
+.howItWorks{
+    height: 120vh;
+    
+    margin:0 8vw;
+    padding: 10vh 0;
+}
+.howItWorksContent{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+.howItWorks h1{
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 6vh;
+}
+
+.FAQS{
+    height: auto;
+    padding: 18vh 0;
+    width: 100%;
+    margin: auto;
+}
+
+.FAQS h1{
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    width: 30vw;
+    margin: auto;
+    margin-bottom: 6vh;
+}
+.FAQStrip{
+    width: 70%;
+    margin: 2vh auto;
+    border: 1.5px gray solid;
+    border-radius: 51px;
+    padding: 0.8vw 1.2vw 0.8vw 2.2vw;
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(65, 64, 64);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8vw;
+    
+}
+.FAQStrip .FAQQues{
+    /* font-style: italic; */
+}
+.FAQStrip:hover{
+    cursor: pointer;
+}
+.FAQStrip .toggleFAQ{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1.5px gray solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FAQStrip .FAQAnswer{
+    font-size: 1.1vw;
+    color:black;
+}
